@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import ContactForm from "./ContactForm/ContactForm";
-import ContactList from "./ContactList/ContactList"
-import Filter from "./Filter/Filter"
+import { ContactForm } from "./ContactForm/ContactForm";
+import { ContactList } from "./ContactList/ContactList"
+import { Filter } from "./Filter/Filter"
 import Notiflix from 'notiflix';
 import { Container, Title, Heading2 } from './App.styled'
 
